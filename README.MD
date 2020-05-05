@@ -4,3 +4,4 @@
 3. Run separate_by_business_id.ipynb (Optional, very time-intensive)
 4. Run load_save_restaurant_business_data.ipynb- saves CSV of relevant information for all restaurant businesses in dataset (used to cross-reference with CSV of reviews from load_save_review_data.ipynb)
 5. Run get_restaurant_review.ipynb- saves CSV of JUST restaurant reviews (subset of result from step 2)
+6. Run preprocess.ipynb - does preprocessing on restaurant_reviews.csv. One hot encodes the numerical features and cleans text reviews. 
